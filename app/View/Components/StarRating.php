@@ -13,7 +13,9 @@ class StarRating extends Component
      */
     public function __construct(
         public readonly ?float $rating
-    ) {}
+    ) {
+        //
+    }
 
     /**
      * Get the view / contents that represent the component.
